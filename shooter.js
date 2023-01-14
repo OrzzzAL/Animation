@@ -23,7 +23,7 @@ class shooter{
             this.speed -=100;
         }
         this.x1 += this.speed*this.game.clockTick;
-        this.game.addEntity(new bullet(this.game,this.x2,this.y2,0))
+        //this.game.addEntity(new bullet(this.game,this.x2,this.y2,0))
     };
 
     
