@@ -4,7 +4,7 @@ class zombie{
         this.animator = new Animator(ASSET_MANAGER.getAsset("./spritesheets.png"),0, 0, 49.06, 62, 15, 0.2);
 
 		this.x = 0;
-		this.y = 0;
+		this.y = 85;
 		this.speed = 150;
     };
     update(){
